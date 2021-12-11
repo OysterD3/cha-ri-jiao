@@ -31,4 +31,25 @@ describe("Get day's sexagenary cycle", () => {
   test("should return 丁酉", () => {
     expect(getDaySexagenaryCycle("2020-04-24")).toBe("丁酉");
   });
+  test("should return 癸卯", () => {
+    expect(getDaySexagenaryCycle("2021-12-21")).toBe("癸卯");
+  });
+  test("should return 戊子", () => {
+    expect(getDaySexagenaryCycle("2057-09-28")).toBe("戊子");
+  });
+  test("should return 壬子", () => {
+    expect(getDaySexagenaryCycle("2089-09-04")).toBe("壬子");
+  });
+  test("should return 丙寅", () => {
+    expect(getDaySexagenaryCycle("2097-08-07")).toBe("丙寅");
+  });
+  test("should return 甲辰", () => {
+    expect(getDaySexagenaryCycle("2051-03-20")).toBe("甲辰");
+  });
+  test("should return 丁未", () => {
+    expect(getDaySexagenaryCycle("2083-02-03")).toBe("丁未");
+  });
+  test("should return 丁酉", () => {
+    expect(getDaySexagenaryCycle("2084-03-19")).toBe("丁酉");
+  });
 });
